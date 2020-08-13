@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController () <UITextViewDelegate>
 
@@ -18,11 +19,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSLog(@"获取随机素数===%d",[ViewController getPrime]);
-    NSMutableArray *array = [NSMutableArray array];
-    NSLog(@"分解大数=====%@",[self getPrimes:[[NSString stringWithFormat:@"%ld",arc4random()%10000000000] intValue] Array:array]);
+    Person *person1 = [Person shareInstance];
     
-    NSLog(@"素数的个数======%ld",[self getAllPrimes:1000].count);
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        Person *person2 = [Person shareInstance];
+    });
+    
+//    NSLog(@"获取随机素数===%d",[ViewController getPrime]);
+//    NSMutableArray *array = [NSMutableArray array];
+//    NSLog(@"分解大数=====%@",[self getPrimes:[[NSString stringWithFormat:@"%ld",arc4random()%10000000000] intValue] Array:array]);
+//
+//    NSLog(@"素数的个数======%ld",[self getAllPrimes:1000].count);
 }
 
 /**
