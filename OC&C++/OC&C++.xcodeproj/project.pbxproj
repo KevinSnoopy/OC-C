@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E95BAFBE24E5382E00985451 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = E95BAFBD24E5382E00985451 /* View.m */; };
 		E98F3E7924D96520004E2637 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F3E7824D96520004E2637 /* AppDelegate.m */; };
 		E98F3E7C24D96520004E2637 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F3E7B24D96520004E2637 /* SceneDelegate.m */; };
 		E98F3E7F24D96520004E2637 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E98F3E7E24D96520004E2637 /* ViewController.mm */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E95BAFBC24E5382E00985451 /* View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		E95BAFBD24E5382E00985451 /* View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 		E98F3E7424D96520004E2637 /* OC&C++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC&C++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98F3E7724D96520004E2637 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E98F3E7824D96520004E2637 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				E98F3EB324D965A0004E2637 /* Person.m */,
 				E98F3EB524D965ED004E2637 /* Person.cpp */,
 				E98F3EB624D965ED004E2637 /* Person.hpp */,
+				E95BAFBC24E5382E00985451 /* View.h */,
+				E95BAFBD24E5382E00985451 /* View.m */,
 				E98F3E8024D96520004E2637 /* Main.storyboard */,
 				E98F3E8324D96521004E2637 /* Assets.xcassets */,
 				E98F3E8524D96521004E2637 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95BAFBE24E5382E00985451 /* View.m in Sources */,
 				E98F3EB424D965A0004E2637 /* Person.m in Sources */,
 				E98F3E7F24D96520004E2637 /* ViewController.mm in Sources */,
 				E98F3E7924D96520004E2637 /* AppDelegate.m in Sources */,
